@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #72b7d3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    margin: 50px 20px;
+}
+
+#about p {
+    text-align: center;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#skills .skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#skills .skills-list li {
+    list-style: none;
+    background-color: #f7b3dd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#education p, #education a {
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    margin: 10px 0;
+}
+
+#projects .project-item {
+    background-color: #f2ccfc;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+}
+
+#projects a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form Styles */
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact form input, 
+#contact form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
